@@ -1,0 +1,28 @@
+import {
+  Star,
+  MapPin,
+  Wifi,
+  Coffee,
+  Droplets,
+  Tv,
+  Utensils,
+  Snowflake,
+  Dumbbell,
+  Clock,
+  CreditCard,
+  Hotel,
+  Pin,
+  Map,
+  Waves,
+  ListChecks,
+} from "lucide-react";
+export const amenitiesIcons = {
+    wifi: <Wifi className="h-4 w-4" />,
+    breakfast: <Coffee className="h-4 w-4" />,
+    ac: <Snowflake className="h-4 w-4" />,
+    tv: <Tv className="h-4 w-4" />,
+    minibar: <Droplets className="h-4 w-4" />,
+    gym: <Dumbbell className="h-4 w-4" />,
+    restaurant: <Utensils className="h-4 w-4" />,
+    pool: <Waves className="h-4 w-4" />,
+  };

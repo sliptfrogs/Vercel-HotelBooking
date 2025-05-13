@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent text color from turning black on hover */
+.custom-segmented .ant-segmented-item:hover {
+    color: inherit !important;
+  }
+/* Ensure selected item retains its background instantly */
+.custom-segmented .ant-segmented-item-selected,
+.custom-segmented .ant-segmented-item-active {
+    color: #ececec !important;
+    background-color: #918f8f7a !important;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
+/* Ensure the component doesn't flash white when clicking */
+.custom-segmented {
+    background-color: #4949497a !important; /* Set default background */
+    backdrop-filter: 10px;
+}
+.ant-pagination-item-link {
+    color: white !important; /* Change to white or any color you prefer */
+  }
+  
+  .ant-pagination-item-link:hover {
+    color: rgb(83, 83, 83) !important; /* Ensure the hover state also reflects the color change */
+  }
+  .ant-pagination-disabled .ant-pagination-item-link {
+    opacity: 0.2; /* Reduce opacity when the button is disabled */
+  }
+
+ 
+  .ant-modal-content {
+    background-color: inherit !important;
+  }
